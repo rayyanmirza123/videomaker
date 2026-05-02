@@ -1,0 +1,191 @@
+.frame-viewer {
+ background: #1e1e1e;
+ padding: 15px;
+ border-radius: 8px;
+ margin-top: 20px;
+ color: #fff;
+}
+
+.frame-viewer h3 {
+ margin-top: 0;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #444;
+}
+
+.frame-container {
+ max-width: 100%;
+ overflow: auto;
+ margin-bottom: 15px;
+ transform-origin: top left;
+}
+
+.frame-container canvas {
+ background: #000;
+ max-width: 100%;
+ display: block;
+ cursor: crosshair;
+}
+
+.frame-controls {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px;
+ margin-bottom: 15px;
+}
+
+.adjustment-controls {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 15px;
+}
+
+.adjustment-controls label {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+ font-size: 14px;
+}
+
+.action-buttons {
+ display: flex;
+ gap: 10px;
+}
+
+.action-buttons button {
+ background: #333;
+ border: none;
+ color: #fff;
+ padding: 8px 12px;
+ border-radius: 4px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+
+.action-buttons button:hover {
+ background: #444;
+}
+
+.annotation-tools {
+ background: #252525;
+ padding: 10px;
+ border-radius: 4px;
+}
+
+.annotation-tools h4 {
+ margin-top: 0;
+ margin-bottom: 10px;
+}
+
+.tool-options {
+ display: flex;
+ gap: 10px;
+}
+
+.tool-options button {
+ background: #333;
+ border: none;
+ color: #fff;
+ padding: 5px 10px;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.tool-options button.active {
+ background: #4a90e2;
+}
+
+.no-frame {
+ text-align: center;
+ padding: 20px;
+ color: #888;
+}
+
+.no-frame p {
+ margin: 5px 0;
+}
+
+.frame-viewer {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.frame-viewer h3 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.frame-container {
+  max-width: 100%;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+.frame-container canvas {
+  background: #000;
+  max-width: 100%;
+  display: block;
+}
+
+.frame-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.frame-controls button {
+  background: #333;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.frame-controls button:hover {
+  background: #444;
+}
+
+.no-frame {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+.no-frame p {
+  margin: 5px 0;
+}
+
+.progress-warning {
+ color: #ffcc00;
+ font-size: 0.9em;
+ margin: 5px 0;
+}
+
+.error {
+ color: #ff4444;
+}
+
+.retry-button {
+ background: #4a4a4a;
+ border: none;
+ color: white;
+ padding: 5px 10px;
+ border-radius: 4px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.retry-button:hover {
+ background: #5a5a5a;
+}
