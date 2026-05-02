@@ -1,6 +1,6 @@
 @echo off
 set "projectPath=C:\Users\rayya\Documents\videomaker\videomaker"
-set "repoURL=https://github.com/"
+set "repoURL=https://github.com/rayyanmirza123/videomaker"
 
 echo Moving to project directory...
 cd /d "%projectPath%"
